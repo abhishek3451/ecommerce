@@ -1,0 +1,75 @@
+.contactus-section {
+  margin: 8rem 0;
+}
+
+/* .contact-leftside img {
+  min-width: 50%;
+  max-height: 10rem;
+  height: auto;
+} */
+
+.contact-input-feild {
+  margin-bottom: 2rem;
+}
+
+.contact-rightside form .form-control {
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  height: 2.8rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding-left: 1rem;
+  font-weight: lighter;
+}
+
+.contact-rightside form .form-check-input {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.form-checkbox-style {
+  margin: 2rem 0;
+}
+
+.contact-rightside form .main-hero-para {
+  font-size: 1rem;
+  color: var(--text-color);
+
+  font-weight: strong;
+  width: 100%;
+  padding: 0 1.5rem;
+}
+.btn-style {
+  display: flex;
+  margin: 15px auto;
+  justify-content: center;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 8px;
+  overflow: auto;
+  width: 100%;
+}
+@media (min-width: 1500px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1500px !important;
+  }
+}
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1400px;
+  }
+}

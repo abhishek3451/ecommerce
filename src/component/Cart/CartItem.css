@@ -1,0 +1,152 @@
+.Cart {
+  position: fixed;
+  top: 10%;
+  right: 0;
+  background-color: whitesmoke;
+  color: black;
+  width: 100px;
+  height: 100%;
+  overflow: auto;
+}
+
+.product-info-tag {
+  display: flex;
+  justify-content: space-around;
+}
+.cancle-icon {
+  position: fixed;
+  right: 0;
+}
+.centerTheCartName {
+  font-family: "Metal Mania";
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.purchase {
+  display: flex;
+  margin: 15px auto;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 8px;
+  overflow: auto;
+}
+.CartItem {
+  display: flex;
+}
+
+.cart-row {
+  display: flex;
+}
+.cart-img {
+  width: 80px;
+  border-radius: 8%;
+  margin-right: 20px;
+}
+.cancel {
+  position: absolute;
+  cursor: pointer;
+  color: rgb(121, 117, 117);
+  top: 0;
+  right: 0;
+  margin: 20px;
+  background: none;
+  font-size: 16px;
+  font-weight: 700;
+  border: 1px solid rgb(121, 117, 117);
+  border-radius: 7px;
+  padding: 5px;
+}
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+.cart-check {
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid black; */
+  margin-left: 30%;
+  /* padding-bottom: 10px; */
+  margin-top: 20px;
+}
+.cart-header {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.cart-item {
+  width: 36%;
+  margin-left: 20px;
+}
+.cart-price {
+  width: 20%;
+  justify-content: center;
+}
+.cart-quantity {
+  width: 35%;
+  justify-content: center;
+}
+.cart-quantity input {
+  width: 40px;
+  height: 30px;
+  border: 1px solid rgb(0, 204, 255);
+  border-radius: 8%;
+  outline: none;
+  text-align: center;
+  margin-right: 20px;
+}
+.cart-update-add {
+  margin-right: auto;
+  color: white;
+  font-weight: bold;
+  background: rgb(126, 216, 84);
+  cursor: pointer;
+  border: none;
+  border-radius: 8%;
+  height: 30px;
+  outline: none;
+  padding: 0px 7px;
+  width: auto;
+}
+.cart-delete {
+  display: flex;
+  margin-left: 8px;
+  background-color: rgb(43, 43, 43);
+  color: white;
+  border: none;
+  padding: 5px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 8px;
+  overflow: auto;
+}
+.cart-update-remove {
+  color: white;
+  font-weight: bold;
+  background: rgb(219, 55, 55);
+  cursor: pointer;
+  border: none;
+  border-radius: 8%;
+  height: 30px;
+  outline: none;
+  padding: 0px 7px;
+  width: auto;
+}
+
+.item h4 {
+  margin-top: -6px;
+}
+.total {
+  margin-top: 40px;
+  margin-right: 15rem;
+  text-align: right;
+  font-size: x-large;
+}

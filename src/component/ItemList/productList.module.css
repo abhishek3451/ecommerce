@@ -1,0 +1,79 @@
+.cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 12px;
+}
+.car {
+  margin: 10px 100px 50px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+span {
+  font-weight: 500;
+}
+.title {
+  margin-bottom: 12px;
+  margin-right: 20px;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.heading {
+  margin-top: 10px;
+  font-family: "Transformers Movie";
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.images {
+  object-fit: cover;
+  height: 250px;
+  border-radius: 2%;
+  width: 250px;
+  padding: 0px;
+  box-shadow: 2px 2px 5px rgba(2, 1, 1, 0.2);
+  margin: 0px;
+
+  transition: ease-in 0.5s;
+  filter: brightness(100%);
+}
+.images:hover {
+  transform: scale(1.5);
+}
+.btmm {
+  display: flex;
+  margin-top: 15px;
+
+  justify-content: center;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+.bttn {
+  margin-left: 5rem;
+  /* margin-right: 3rem; */
+}
+.price {
+  font-weight: 600;
+}
+.size {
+  width: 260px;
+  height: 260px;
+  border-radius: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
